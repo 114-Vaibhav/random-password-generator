@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(163, 164, 177);
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.bigbox {
+    /* margin-left: 30%; */
+    /* margin-top: 200px; */
+    margin: 200px auto;
+    /* display: flex; */
+    align-items: center;
+    width: 700px;
+    justify-content: center;
+    /* position: fixed; */
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.generate {
+    background-color: aliceblue;
+    color: rgb(102, 104, 106);
+    font-size: 50px;
+    font-weight: 900;
+    /* text-shadow: 5px 0px 5px black; */
+}
+
+.input {
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    /* margin-top: 30px; */
+    padding: 5px;
+    display: flex;
+    border: none;
+    /* text-align: ; */
+}
+
+.copy {
+    /* color: aliceblue; */
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.display {
+    background-color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    margin-left: 40%;
+}
+
+.button {
+    background-color: aliceblue;
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    font-size: large;
+    font-weight: 700;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
